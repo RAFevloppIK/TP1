@@ -1,0 +1,7 @@
+Et bien , pour qu'une classe qui portent des métodes spécifiques comme "dessiner" , une interface va bien servir ici comme cette dernière donne aux classes (qui l'implémente) plus d'extensibilité et plus de parametres à pouvoir interagir avec .
+
+Dans ce cas , et avant de créer une interface : on ne peut créer que des TrainCercles
+
+Pour plus d'extension , on doit remplacer chaque mot "TrainCercle" (comme type non comme classe) par le nom de l'interface "IObjetDessinable"
+
+
