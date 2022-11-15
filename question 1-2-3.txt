@@ -1,0 +1,20 @@
+1- c'est ouvert en eclipse
+
+2-l'apparence d'une fenetre qui affiche le mouvement des trains de cercles
+
+3- Cercle : une classe qui ne porte que les coordonnées nécessaires pour dessiner et postionner un cercle et les fonctions qui prennent ces paramètres
+
+CercleDebut : une classe qui dessine et positionne le premier cercle du train , et le dévie selon le changement de la direction et postion de la pointe  après qu'on a confirmé qu'il n'y aura aucun débordement de la fenetre d'application
+
+CercleDebutImage : c'est la classe qui va prendre en charge le cercle du début et le place une image
+
+Dessin : crée la fenetre d'application et qui va contenir les trains des cercles
+
+LancerApp1 : c'est la classe qui contient la fonction "main" pour executer l'application 
+
+TrainCercle : combine les cercles pour former le train et le déplacer
+
+TrainCercleCouleur : la classe qui prend les cercles et les donne une couleur
+
+TrainCercleImage : c'est la classe qui met une image comme cercle du début du tarin
+
