@@ -1,0 +1,2 @@
+Il faut créer une classe pour chaque mouvement , cette classe doit implementer l'interface IFormeAnimable sans oublier d'ajouter déplacer() qui implémentera la méthode abstraite déplacer() 
+Enfin , écrire les instructions nécessaires pour différencier le mouvement dans cette classe par rapport aux autres 
