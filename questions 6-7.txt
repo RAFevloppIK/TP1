@@ -1,0 +1,10 @@
+6- dans le code de la classe "desssin" , la methode animer() contient une méthode "depalcer" qui doit etre concrete d'une methode abstraite déclaré au niveau de l'interface implémenté qui est "IObjetDessinable"
+
+7-comme là on parle d'animation, donc c'est ça ne suffit pas que l'objet soit dessiné , mais on doit l'animer , donc on va spécifier les objets dessinables qui sont animés à travers une nouvelle interface (qu'on va l'appeler "IAnimé") qui hérite de l'interface des objets dessinés "IObjetDessinable"
+
+Ensuite , on ajoute la méthode abstraite "deplacer" dans cette nouvelle interface
+
+Dernièrement , tant que nous avons "spécifié" qu'il y a des objets dessinables qui sont animés , donc nous devons confirmer que l'objet utilisant cette méthode doit etre animé  , les changements sont faites dans le code .
+
+
+Maintenant que nous avons mis la méthode abstraite deplacer() au niveau de l'interface IAnimé , nous allons implémenté chaque class qui utilise cette methode dans cette nouvelle interfaces

@@ -2,7 +2,7 @@ package package1;
 
 import java.awt.Graphics;
 
-public class Visage implements IObjetDessinable {
+public class Visage implements IAnimé{
 	 // ---------------------------------------------------------
     // Les constantes de la classe Visage
     // ---------------------------------------------------------
