@@ -48,6 +48,10 @@ public class LancerApp1 {
 		
 		d.ajouterObjet(star);
 		d.ajouterObjet(polygon);
+		
+		MvtCirculaire circ = new MvtCirculaire(20,20,20,20,20);
+		
+		
 		while(true) {
 		// la zone de dessin se r�affiche
 		d.repaint();

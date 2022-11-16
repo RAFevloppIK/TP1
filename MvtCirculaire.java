@@ -1,5 +1,6 @@
 package package1;
 
+import java.awt.Graphics;
 
 /**
  * Animateur permettant de déplacer une forme avec un mouvement circulaire
