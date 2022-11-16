@@ -1,0 +1,5 @@
+MvtCirculaire : prend l'objet à animer et l'effectue un mouvement circulaire
+
+IFormeAnimale : l'interface qui prend déplacer() comme méthode abstraite afin de les implémenter par les classe MvtCirculaire et AnimationForme
+
+AnimationForme : la classe qui implémente l'interface IAnimé afin d'avoir la méthode déplacer() 
