@@ -1,0 +1,1 @@
+Le problème ici c'est comment essayer chaque fois de savoir le mouvement à appliquer sur la forme ,soit du coté étoile ou du coté Polygone régulier .
