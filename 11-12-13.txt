@@ -1,0 +1,9 @@
+10- le code est analysé et il montre un ensemble de classes héritées de la classe forme , qui presentent ont pour but la créationdes objets soit de forme circulaire ou forme circulaire régulière , et meme pour plus spécifier : la forme peut etre une etoile ou un polygone
+et ça à l'aide des méthodes internes et à l'aide meme de la méthode "dessiner" (donc on va implémenter la classe "Forme" à l'interface "IObjetDessinable")
+
+11- on ne peut pas modeliser malheureusement
+
+12- les modifications sont mises en places dans le code 
+
+
+

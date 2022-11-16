@@ -41,7 +41,13 @@ public class LancerApp1 {
 		//ajout d'objet
 		d.ajouterObjet(v);
 		
+		// and now we'll have a star 
+		Forme star=new Etoile(150,150,80,6.f,Color.RED,Color.YELLOW);
+		//and a polygon
+		Forme polygon=new PolygoneRegulier(5,200,50,50,4.f,Color.DARK_GRAY,null);
 		
+		d.ajouterObjet(star);
+		d.ajouterObjet(polygon);
 		while(true) {
 		// la zone de dessin se r�affiche
 		d.repaint();
