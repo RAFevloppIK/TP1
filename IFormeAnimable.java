@@ -12,6 +12,6 @@ public interface IFormeAnimable {
      *
      * @param f la forme à déplacer
      */
-    public void deplacer(Forme f);
+    public void deplacer(Forme f) ;
     
 }

@@ -280,7 +280,7 @@ public class Visage implements IAnimé{
      *
      * @see java.awt.Graphics
      * @see Dessinable
-     */
+     *///
     public void dessiner(Graphics g) {
         // dessiner le contour du visage
         g.drawOval(xhg, yhg, largeur, hauteur);
@@ -300,7 +300,7 @@ public class Visage implements IAnimé{
         g.drawOval(xhg + largeurOeil, yhg + hauteurOeil, largeurOeil,
                 hauteurOeil);
         g.drawOval(xhg + 3 * largeurOeil, yhg + hauteurOeil, largeurOeil,
-                hauteurOeil);
+                hauteurOeil);;
 
     }
 }

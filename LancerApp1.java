@@ -28,8 +28,8 @@ public class LancerApp1 {
 		
 		// les trains de cercles avec image et en couleur
 		TrainCercle[] lesTrains= new TrainCercle[10];
-		lesTrains[0] = new TrainCercleImage(d, 10, imgVador); d.ajouterObjet(lesTrains[0]);
-		lesTrains[1] = new TrainCercleImage(d, 10, imgLeila); d.ajouterObjet(lesTrains[1]);
+		lesTrains[0] = new TrainCercleImage(d , 10 , imgVador); d.ajouterObjet(lesTrains[0]);
+		lesTrains[1] = new TrainCercleImage(d , 10 , imgLeila); d.ajouterObjet(lesTrains[1]);
 		for (int i = 2; i < 10; i++) {
 			lesTrains[i] = new TrainCercleCouleur(new Color((float) Math.random(), (float) Math.random(),
 		(float) Math.random()), d, 10, 10);
@@ -43,7 +43,7 @@ public class LancerApp1 {
 		
 		// and now we'll have a star 
 		Forme star=new Etoile(150,150,80,6.f,Color.RED,Color.YELLOW);
-		//and a polygon
+		//and a polygon;
 		Forme polygon=new PolygoneRegulier(5,200,50,50,4.f,Color.DARK_GRAY,null);
 		
 		d.ajouterObjet(star);
