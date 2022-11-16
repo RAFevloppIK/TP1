@@ -8,27 +8,27 @@ public class Visage implements IAnimé{
     // ---------------------------------------------------------
     /**
      * Largeur par défaut pour un Visage
-     */
+      */
     public static final int LARGEUR_DEFAUT = 50;
 
     /**
      * Hauteur par defaut pour un Visage.
-     */
+      */
     public static final int HAUTEUR_DEFAUT = 50;
 
     /**
      * Largeur minimale pour un Visage
-     */
+      */
     public static final int LARGEUR_MIN = 15;
 
     /**
      * Hauteur minimale pour un Visage
-     */
+      */
     public static final int HAUTEUR_MIN = 15;
 
     /**
      * déplacement par défaut.
-     */
+      */
     public static final int DEPLACEMENT_DEFAUT = 5;
 
     // -------------------------------------------------------------
@@ -36,32 +36,32 @@ public class Visage implements IAnimé{
     // -------------------------------------------------------------
     /**
      * La zône de dessin dans laquelle se trouve le Visage.
-     */
+      */
     private Dessin d;
 
     /**
      * abscisse coin supérieur gauche du rectangle englobant le visage.
-     */
+      */
     private int xhg = 0;
 
     /**
      * ordonnée coin supérieur gauche du rectangle englobant le visage.
-     */
+      */
     private int yhg = 0;
 
     /**
      * largeur du visage.
-     */
+      */
     private int largeur;
 
     /**
      * hauteur du visage.
-     */
+      */
     private int hauteur;
 
     /**
      * déplacement élémentaire horizontal du visage. Par défaut 5 pixels.
-     */
+      */
     private int dx = DEPLACEMENT_DEFAUT;
 
     /**

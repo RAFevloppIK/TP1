@@ -49,7 +49,7 @@ public class LancerApp1 {
 		d.ajouterObjet(star);
 		d.ajouterObjet(polygon);
 		
-		MvtCirculaire circ = new MvtCirculaire(20,20,20,20,20);
+		MvtCirculaire circ = new MvtCirculaire(20,20,20,20,20) ;
 		
 		
 		while(true) {
